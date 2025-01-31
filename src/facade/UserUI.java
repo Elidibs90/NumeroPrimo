@@ -22,8 +22,8 @@ public class UserUI {
 
 
             } catch (NumberFormatException e) {
-                JOptionPane.showInputDialog("Ingresa un numero valido");
-                
+                JOptionPane.showMessageDialog(null,"Ingresa un numero valido");
+
             }
 
         }
